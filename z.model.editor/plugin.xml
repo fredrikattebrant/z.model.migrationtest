@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="w3schools.presentation.W3schoolsModelWizardID"
+            name="%_UI_W3schoolsModelWizard_label"
+            class="w3schools.presentation.W3schoolsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/W3schoolsModelFile.gif">
+         <description>%_UI_W3schoolsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="w3schools.presentation.W3schoolsEditorID"
+            name="%_UI_W3schoolsEditor_label"
+            icon="icons/full/obj16/W3schoolsModelFile.gif"
+            extensions="w3schools"
+            class="w3schools.presentation.W3schoolsEditor"
+            contributorClass="w3schools.presentation.W3schoolsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

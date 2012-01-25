@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_O_SxgEacEeGUa8drLJXdDg" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_PAGCwEacEeGUa8drLJXdDg" type="2001" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PAGCwkacEeGUa8drLJXdDg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAGp0EacEeGUa8drLJXdDg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAGp0UacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAGp0kacEeGUa8drLJXdDg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_Pwm5sEacEeGUa8drLJXdDg" value="0.23076923076923078"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAGp00acEeGUa8drLJXdDg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAGp1EacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAGp1UacEeGUa8drLJXdDg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_Pwm5sUacEeGUa8drLJXdDg" value="0.23076923076923078"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAGp1kacEeGUa8drLJXdDg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAGp10acEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAGp2EacEeGUa8drLJXdDg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_Pwm5skacEeGUa8drLJXdDg" value="0.23076923076923078"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="w3schools.2.ecore#//DescrType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAGCwUacEeGUa8drLJXdDg" x="297" y="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PAGp2UacEeGUa8drLJXdDg" type="2001" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PAHQ4EacEeGUa8drLJXdDg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAHQ4UacEeGUa8drLJXdDg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAHQ4kacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAHQ40acEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAHQ5EacEeGUa8drLJXdDg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAHQ5UacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAHQ5kacEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAHQ50acEeGUa8drLJXdDg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAHQ6EacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAHQ6UacEeGUa8drLJXdDg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="w3schools.2.ecore#//DocumentRoot"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAGp2kacEeGUa8drLJXdDg" x="117" y="387"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PAHQ6kacEeGUa8drLJXdDg" type="2001" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PAH38EacEeGUa8drLJXdDg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAH38UacEeGUa8drLJXdDg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAH38kacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAH380acEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAH39EacEeGUa8drLJXdDg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAH39UacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAH39kacEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PAH390acEeGUa8drLJXdDg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PAH3-EacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PAH3-UacEeGUa8drLJXdDg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="w3schools.2.ecore#//NoteType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAHQ60acEeGUa8drLJXdDg" x="234" y="207"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_O_SxgUacEeGUa8drLJXdDg"/>
+  <element xmi:type="ecore:EPackage" href="w3schools.2.ecore#/"/>
+</notation:Diagram>

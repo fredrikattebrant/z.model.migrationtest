@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_KM4LYUacEeGUa8drLJXdDg" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_KeJhkEacEeGUa8drLJXdDg" type="2001" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KeT5oEacEeGUa8drLJXdDg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KebOYEacEeGUa8drLJXdDg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Keb1cEacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Keb1cUacEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Keb1ckacEeGUa8drLJXdDg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Keb1c0acEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Keb1dEacEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Keb1dUacEeGUa8drLJXdDg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Keb1dkacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Keb1d0acEeGUa8drLJXdDg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="w3schools.1.ecore#//DescrType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KeJhkUacEeGUa8drLJXdDg" x="243" y="45"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_KeccgEacEeGUa8drLJXdDg" type="2001" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KeccgkacEeGUa8drLJXdDg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Keccg0acEeGUa8drLJXdDg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KecchEacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KecchUacEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KecchkacEeGUa8drLJXdDg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Kecch0acEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KecciEacEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KedDkEacEeGUa8drLJXdDg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KedDkUacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KedDkkacEeGUa8drLJXdDg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="w3schools.1.ecore#//DocumentRoot"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KeccgUacEeGUa8drLJXdDg" x="135" y="351"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_KedDk0acEeGUa8drLJXdDg" type="2001" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KedDlUacEeGUa8drLJXdDg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KedDlkacEeGUa8drLJXdDg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_TJs8cEacEeGUa8drLJXdDg" type="3001">
+        <element xmi:type="ecore:EAttribute" href="w3schools.1.ecore#//NoteType/@eStructuralFeatures.5"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_TJs8cUacEeGUa8drLJXdDg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KedDl0acEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KedDmEacEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KedDmUacEeGUa8drLJXdDg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KedqoEacEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KedqoUacEeGUa8drLJXdDg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KedqokacEeGUa8drLJXdDg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Kedqo0acEeGUa8drLJXdDg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KedqpEacEeGUa8drLJXdDg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="w3schools.1.ecore#//NoteType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KedDlEacEeGUa8drLJXdDg" x="171" y="180"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KM4LYkacEeGUa8drLJXdDg"/>
+  <element xmi:type="ecore:EPackage" href="w3schools.1.ecore#/"/>
+</notation:Diagram>
