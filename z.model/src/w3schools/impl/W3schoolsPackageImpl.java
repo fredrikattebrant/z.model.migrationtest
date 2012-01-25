@@ -235,7 +235,7 @@ public class W3schoolsPackageImpl extends EPackageImpl implements W3schoolsPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getNoteType_Descr() {
+	public EReference getNoteType_Description() {
 		return (EReference)noteTypeEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -244,7 +244,7 @@ public class W3schoolsPackageImpl extends EPackageImpl implements W3schoolsPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getNoteType_First() {
+	public EAttribute getNoteType_Second() {
 		return (EAttribute)noteTypeEClass.getEStructuralFeatures().get(5);
 	}
 
@@ -291,8 +291,8 @@ public class W3schoolsPackageImpl extends EPackageImpl implements W3schoolsPacka
 		createEAttribute(noteTypeEClass, NOTE_TYPE__FROM);
 		createEAttribute(noteTypeEClass, NOTE_TYPE__HEADING);
 		createEAttribute(noteTypeEClass, NOTE_TYPE__BODY);
-		createEReference(noteTypeEClass, NOTE_TYPE__DESCR);
-		createEAttribute(noteTypeEClass, NOTE_TYPE__FIRST);
+		createEReference(noteTypeEClass, NOTE_TYPE__DESCRIPTION);
+		createEAttribute(noteTypeEClass, NOTE_TYPE__SECOND);
 	}
 
 	/**
@@ -343,8 +343,8 @@ public class W3schoolsPackageImpl extends EPackageImpl implements W3schoolsPacka
 		initEAttribute(getNoteType_From(), theXMLTypePackage.getString(), "from", null, 1, 1, NoteType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getNoteType_Heading(), theXMLTypePackage.getString(), "heading", null, 1, 1, NoteType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getNoteType_Body(), theXMLTypePackage.getString(), "body", null, 1, 1, NoteType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getNoteType_Descr(), this.getDescrType(), null, "descr", null, 1, 1, NoteType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getNoteType_First(), ecorePackage.getEString(), "first", null, 0, 1, NoteType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getNoteType_Description(), this.getDescrType(), null, "description", null, 1, 1, NoteType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getNoteType_Second(), ecorePackage.getEString(), "Second", null, 0, 1, NoteType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);
@@ -459,7 +459,7 @@ public class W3schoolsPackageImpl extends EPackageImpl implements W3schoolsPacka
 			 "namespace", "##targetNamespace"
 		   });		
 		addAnnotation
-		  (getNoteType_Descr(), 
+		  (getNoteType_Description(), 
 		   source, 
 		   new String[] {
 			 "kind", "element",

@@ -31,7 +31,7 @@ public class W3schoolsFactoryImpl extends EFactoryImpl implements W3schoolsFacto
 	 */
 	public static W3schoolsFactory init() {
 		try {
-			W3schoolsFactory theW3schoolsFactory = (W3schoolsFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.w3schools.com/1.0"); 
+			W3schoolsFactory theW3schoolsFactory = (W3schoolsFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.w3schools.com/2.0"); 
 			if (theW3schoolsFactory != null) {
 				return theW3schoolsFactory;
 			}

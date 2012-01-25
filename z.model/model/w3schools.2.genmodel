@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/z.model/src"
+    modelPluginID="z.model" modelName="W3schools" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>w3schools.2.ecore</foreignModel>
+  <genPackages prefix="W3schools" resource="XML" disposableProviderFactory="true"
+      ecorePackage="w3schools.2.ecore#/">
+    <genClasses ecoreClass="w3schools.2.ecore#//DescrType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute w3schools.2.ecore#//DescrType/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute w3schools.2.ecore#//DescrType/ifmid"/>
+    </genClasses>
+    <genClasses ecoreClass="w3schools.2.ecore#//DocumentRoot">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute w3schools.2.ecore#//DocumentRoot/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference w3schools.2.ecore#//DocumentRoot/xMLNSPrefixMap"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference w3schools.2.ecore#//DocumentRoot/xSISchemaLocation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference w3schools.2.ecore#//DocumentRoot/note"/>
+    </genClasses>
+    <genClasses ecoreClass="w3schools.2.ecore#//NoteType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute w3schools.2.ecore#//NoteType/to"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute w3schools.2.ecore#//NoteType/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute w3schools.2.ecore#//NoteType/heading"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute w3schools.2.ecore#//NoteType/body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference w3schools.2.ecore#//NoteType/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute w3schools.2.ecore#//NoteType/Second"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

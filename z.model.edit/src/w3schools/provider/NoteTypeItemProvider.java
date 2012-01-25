@@ -71,7 +71,7 @@ public class NoteTypeItemProvider
 			addFromPropertyDescriptor(object);
 			addHeadingPropertyDescriptor(object);
 			addBodyPropertyDescriptor(object);
-			addFirstPropertyDescriptor(object);
+			addSecondPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -165,19 +165,19 @@ public class NoteTypeItemProvider
 	}
 
 	/**
-	 * This adds a property descriptor for the First feature.
+	 * This adds a property descriptor for the Second feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addFirstPropertyDescriptor(Object object) {
+	protected void addSecondPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_NoteType_first_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_NoteType_first_feature", "_UI_NoteType_type"),
-				 W3schoolsPackage.Literals.NOTE_TYPE__FIRST,
+				 getString("_UI_NoteType_Second_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_NoteType_Second_feature", "_UI_NoteType_type"),
+				 W3schoolsPackage.Literals.NOTE_TYPE__SECOND,
 				 true,
 				 false,
 				 false,
@@ -198,7 +198,7 @@ public class NoteTypeItemProvider
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(W3schoolsPackage.Literals.NOTE_TYPE__DESCR);
+			childrenFeatures.add(W3schoolsPackage.Literals.NOTE_TYPE__DESCRIPTION);
 		}
 		return childrenFeatures;
 	}
@@ -257,10 +257,10 @@ public class NoteTypeItemProvider
 			case W3schoolsPackage.NOTE_TYPE__FROM:
 			case W3schoolsPackage.NOTE_TYPE__HEADING:
 			case W3schoolsPackage.NOTE_TYPE__BODY:
-			case W3schoolsPackage.NOTE_TYPE__FIRST:
+			case W3schoolsPackage.NOTE_TYPE__SECOND:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
-			case W3schoolsPackage.NOTE_TYPE__DESCR:
+			case W3schoolsPackage.NOTE_TYPE__DESCRIPTION:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
@@ -280,7 +280,7 @@ public class NoteTypeItemProvider
 
 		newChildDescriptors.add
 			(createChildParameter
-				(W3schoolsPackage.Literals.NOTE_TYPE__DESCR,
+				(W3schoolsPackage.Literals.NOTE_TYPE__DESCRIPTION,
 				 W3schoolsFactory.eINSTANCE.createDescrType()));
 	}
 

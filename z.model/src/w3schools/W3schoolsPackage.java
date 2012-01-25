@@ -41,7 +41,7 @@ public interface W3schoolsPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http://www.w3schools.com/1.0";
+	String eNS_URI = "http://www.w3schools.com/2.0";
 
 	/**
 	 * The package namespace name.
@@ -198,22 +198,22 @@ public interface W3schoolsPackage extends EPackage {
 	int NOTE_TYPE__BODY = 3;
 
 	/**
-	 * The feature id for the '<em><b>Descr</b></em>' containment reference.
+	 * The feature id for the '<em><b>Description</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int NOTE_TYPE__DESCR = 4;
+	int NOTE_TYPE__DESCRIPTION = 4;
 
 	/**
-	 * The feature id for the '<em><b>First</b></em>' attribute.
+	 * The feature id for the '<em><b>Second</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int NOTE_TYPE__FIRST = 5;
+	int NOTE_TYPE__SECOND = 5;
 
 	/**
 	 * The number of structural features of the '<em>Note Type</em>' class.
@@ -366,26 +366,26 @@ public interface W3schoolsPackage extends EPackage {
 	EAttribute getNoteType_Body();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link w3schools.NoteType#getDescr <em>Descr</em>}'.
+	 * Returns the meta object for the containment reference '{@link w3schools.NoteType#getDescription <em>Description</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Descr</em>'.
-	 * @see w3schools.NoteType#getDescr()
+	 * @return the meta object for the containment reference '<em>Description</em>'.
+	 * @see w3schools.NoteType#getDescription()
 	 * @see #getNoteType()
 	 * @generated
 	 */
-	EReference getNoteType_Descr();
+	EReference getNoteType_Description();
 
 	/**
-	 * Returns the meta object for the attribute '{@link w3schools.NoteType#getFirst <em>First</em>}'.
+	 * Returns the meta object for the attribute '{@link w3schools.NoteType#getSecond <em>Second</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>First</em>'.
-	 * @see w3schools.NoteType#getFirst()
+	 * @return the meta object for the attribute '<em>Second</em>'.
+	 * @see w3schools.NoteType#getSecond()
 	 * @see #getNoteType()
 	 * @generated
 	 */
-	EAttribute getNoteType_First();
+	EAttribute getNoteType_Second();
 
 	/**
 	 * Returns the factory that creates the instances of the model.
@@ -520,20 +520,20 @@ public interface W3schoolsPackage extends EPackage {
 		EAttribute NOTE_TYPE__BODY = eINSTANCE.getNoteType_Body();
 
 		/**
-		 * The meta object literal for the '<em><b>Descr</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Description</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference NOTE_TYPE__DESCR = eINSTANCE.getNoteType_Descr();
+		EReference NOTE_TYPE__DESCRIPTION = eINSTANCE.getNoteType_Description();
 
 		/**
-		 * The meta object literal for the '<em><b>First</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>Second</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute NOTE_TYPE__FIRST = eINSTANCE.getNoteType_First();
+		EAttribute NOTE_TYPE__SECOND = eINSTANCE.getNoteType_Second();
 
 	}
 

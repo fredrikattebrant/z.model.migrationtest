@@ -30,8 +30,8 @@ import w3schools.W3schoolsPackage;
  *   <li>{@link w3schools.impl.NoteTypeImpl#getFrom <em>From</em>}</li>
  *   <li>{@link w3schools.impl.NoteTypeImpl#getHeading <em>Heading</em>}</li>
  *   <li>{@link w3schools.impl.NoteTypeImpl#getBody <em>Body</em>}</li>
- *   <li>{@link w3schools.impl.NoteTypeImpl#getDescr <em>Descr</em>}</li>
- *   <li>{@link w3schools.impl.NoteTypeImpl#getFirst <em>First</em>}</li>
+ *   <li>{@link w3schools.impl.NoteTypeImpl#getDescription <em>Description</em>}</li>
+ *   <li>{@link w3schools.impl.NoteTypeImpl#getSecond <em>Second</em>}</li>
  * </ul>
  * </p>
  *
@@ -119,34 +119,34 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 	protected String body = BODY_EDEFAULT;
 
 	/**
-	 * The cached value of the '{@link #getDescr() <em>Descr</em>}' containment reference.
+	 * The cached value of the '{@link #getDescription() <em>Description</em>}' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getDescr()
+	 * @see #getDescription()
 	 * @generated
 	 * @ordered
 	 */
-	protected DescrType descr;
+	protected DescrType description;
 
 	/**
-	 * The default value of the '{@link #getFirst() <em>First</em>}' attribute.
+	 * The default value of the '{@link #getSecond() <em>Second</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getFirst()
+	 * @see #getSecond()
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String FIRST_EDEFAULT = null;
+	protected static final String SECOND_EDEFAULT = null;
 
 	/**
-	 * The cached value of the '{@link #getFirst() <em>First</em>}' attribute.
+	 * The cached value of the '{@link #getSecond() <em>Second</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getFirst()
+	 * @see #getSecond()
 	 * @generated
 	 * @ordered
 	 */
-	protected String first = FIRST_EDEFAULT;
+	protected String second = SECOND_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -256,8 +256,8 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public DescrType getDescr() {
-		return descr;
+	public DescrType getDescription() {
+		return description;
 	}
 
 	/**
@@ -265,11 +265,11 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetDescr(DescrType newDescr, NotificationChain msgs) {
-		DescrType oldDescr = descr;
-		descr = newDescr;
+	public NotificationChain basicSetDescription(DescrType newDescription, NotificationChain msgs) {
+		DescrType oldDescription = description;
+		description = newDescription;
 		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, W3schoolsPackage.NOTE_TYPE__DESCR, oldDescr, newDescr);
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, W3schoolsPackage.NOTE_TYPE__DESCRIPTION, oldDescription, newDescription);
 			if (msgs == null) msgs = notification; else msgs.add(notification);
 		}
 		return msgs;
@@ -280,18 +280,18 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setDescr(DescrType newDescr) {
-		if (newDescr != descr) {
+	public void setDescription(DescrType newDescription) {
+		if (newDescription != description) {
 			NotificationChain msgs = null;
-			if (descr != null)
-				msgs = ((InternalEObject)descr).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - W3schoolsPackage.NOTE_TYPE__DESCR, null, msgs);
-			if (newDescr != null)
-				msgs = ((InternalEObject)newDescr).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - W3schoolsPackage.NOTE_TYPE__DESCR, null, msgs);
-			msgs = basicSetDescr(newDescr, msgs);
+			if (description != null)
+				msgs = ((InternalEObject)description).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - W3schoolsPackage.NOTE_TYPE__DESCRIPTION, null, msgs);
+			if (newDescription != null)
+				msgs = ((InternalEObject)newDescription).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - W3schoolsPackage.NOTE_TYPE__DESCRIPTION, null, msgs);
+			msgs = basicSetDescription(newDescription, msgs);
 			if (msgs != null) msgs.dispatch();
 		}
 		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, W3schoolsPackage.NOTE_TYPE__DESCR, newDescr, newDescr));
+			eNotify(new ENotificationImpl(this, Notification.SET, W3schoolsPackage.NOTE_TYPE__DESCRIPTION, newDescription, newDescription));
 	}
 
 	/**
@@ -299,8 +299,8 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getFirst() {
-		return first;
+	public String getSecond() {
+		return second;
 	}
 
 	/**
@@ -308,11 +308,11 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setFirst(String newFirst) {
-		String oldFirst = first;
-		first = newFirst;
+	public void setSecond(String newSecond) {
+		String oldSecond = second;
+		second = newSecond;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, W3schoolsPackage.NOTE_TYPE__FIRST, oldFirst, first));
+			eNotify(new ENotificationImpl(this, Notification.SET, W3schoolsPackage.NOTE_TYPE__SECOND, oldSecond, second));
 	}
 
 	/**
@@ -323,8 +323,8 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
-			case W3schoolsPackage.NOTE_TYPE__DESCR:
-				return basicSetDescr(null, msgs);
+			case W3schoolsPackage.NOTE_TYPE__DESCRIPTION:
+				return basicSetDescription(null, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -345,10 +345,10 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 				return getHeading();
 			case W3schoolsPackage.NOTE_TYPE__BODY:
 				return getBody();
-			case W3schoolsPackage.NOTE_TYPE__DESCR:
-				return getDescr();
-			case W3schoolsPackage.NOTE_TYPE__FIRST:
-				return getFirst();
+			case W3schoolsPackage.NOTE_TYPE__DESCRIPTION:
+				return getDescription();
+			case W3schoolsPackage.NOTE_TYPE__SECOND:
+				return getSecond();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -373,11 +373,11 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 			case W3schoolsPackage.NOTE_TYPE__BODY:
 				setBody((String)newValue);
 				return;
-			case W3schoolsPackage.NOTE_TYPE__DESCR:
-				setDescr((DescrType)newValue);
+			case W3schoolsPackage.NOTE_TYPE__DESCRIPTION:
+				setDescription((DescrType)newValue);
 				return;
-			case W3schoolsPackage.NOTE_TYPE__FIRST:
-				setFirst((String)newValue);
+			case W3schoolsPackage.NOTE_TYPE__SECOND:
+				setSecond((String)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -403,11 +403,11 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 			case W3schoolsPackage.NOTE_TYPE__BODY:
 				setBody(BODY_EDEFAULT);
 				return;
-			case W3schoolsPackage.NOTE_TYPE__DESCR:
-				setDescr((DescrType)null);
+			case W3schoolsPackage.NOTE_TYPE__DESCRIPTION:
+				setDescription((DescrType)null);
 				return;
-			case W3schoolsPackage.NOTE_TYPE__FIRST:
-				setFirst(FIRST_EDEFAULT);
+			case W3schoolsPackage.NOTE_TYPE__SECOND:
+				setSecond(SECOND_EDEFAULT);
 				return;
 		}
 		super.eUnset(featureID);
@@ -429,10 +429,10 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 				return HEADING_EDEFAULT == null ? heading != null : !HEADING_EDEFAULT.equals(heading);
 			case W3schoolsPackage.NOTE_TYPE__BODY:
 				return BODY_EDEFAULT == null ? body != null : !BODY_EDEFAULT.equals(body);
-			case W3schoolsPackage.NOTE_TYPE__DESCR:
-				return descr != null;
-			case W3schoolsPackage.NOTE_TYPE__FIRST:
-				return FIRST_EDEFAULT == null ? first != null : !FIRST_EDEFAULT.equals(first);
+			case W3schoolsPackage.NOTE_TYPE__DESCRIPTION:
+				return description != null;
+			case W3schoolsPackage.NOTE_TYPE__SECOND:
+				return SECOND_EDEFAULT == null ? second != null : !SECOND_EDEFAULT.equals(second);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -455,8 +455,8 @@ public class NoteTypeImpl extends EObjectImpl implements NoteType {
 		result.append(heading);
 		result.append(", body: ");
 		result.append(body);
-		result.append(", first: ");
-		result.append(first);
+		result.append(", Second: ");
+		result.append(second);
 		result.append(')');
 		return result.toString();
 	}

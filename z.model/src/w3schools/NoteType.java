@@ -20,8 +20,8 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link w3schools.NoteType#getFrom <em>From</em>}</li>
  *   <li>{@link w3schools.NoteType#getHeading <em>Heading</em>}</li>
  *   <li>{@link w3schools.NoteType#getBody <em>Body</em>}</li>
- *   <li>{@link w3schools.NoteType#getDescr <em>Descr</em>}</li>
- *   <li>{@link w3schools.NoteType#getFirst <em>First</em>}</li>
+ *   <li>{@link w3schools.NoteType#getDescription <em>Description</em>}</li>
+ *   <li>{@link w3schools.NoteType#getSecond <em>Second</em>}</li>
  * </ul>
  * </p>
  *
@@ -139,56 +139,56 @@ public interface NoteType extends EObject {
 	void setBody(String value);
 
 	/**
-	 * Returns the value of the '<em><b>Descr</b></em>' containment reference.
+	 * Returns the value of the '<em><b>Description</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Descr</em>' containment reference isn't clear,
+	 * If the meaning of the '<em>Description</em>' containment reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Descr</em>' containment reference.
-	 * @see #setDescr(DescrType)
-	 * @see w3schools.W3schoolsPackage#getNoteType_Descr()
+	 * @return the value of the '<em>Description</em>' containment reference.
+	 * @see #setDescription(DescrType)
+	 * @see w3schools.W3schoolsPackage#getNoteType_Description()
 	 * @model containment="true" required="true"
 	 *        extendedMetaData="kind='element' name='descr' namespace='##targetNamespace'"
 	 * @generated
 	 */
-	DescrType getDescr();
+	DescrType getDescription();
 
 	/**
-	 * Sets the value of the '{@link w3schools.NoteType#getDescr <em>Descr</em>}' containment reference.
+	 * Sets the value of the '{@link w3schools.NoteType#getDescription <em>Description</em>}' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Descr</em>' containment reference.
-	 * @see #getDescr()
+	 * @param value the new value of the '<em>Description</em>' containment reference.
+	 * @see #getDescription()
 	 * @generated
 	 */
-	void setDescr(DescrType value);
+	void setDescription(DescrType value);
 
 	/**
-	 * Returns the value of the '<em><b>First</b></em>' attribute.
+	 * Returns the value of the '<em><b>Second</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>First</em>' attribute isn't clear,
+	 * If the meaning of the '<em>Second</em>' attribute isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>First</em>' attribute.
-	 * @see #setFirst(String)
-	 * @see w3schools.W3schoolsPackage#getNoteType_First()
+	 * @return the value of the '<em>Second</em>' attribute.
+	 * @see #setSecond(String)
+	 * @see w3schools.W3schoolsPackage#getNoteType_Second()
 	 * @model
 	 * @generated
 	 */
-	String getFirst();
+	String getSecond();
 
 	/**
-	 * Sets the value of the '{@link w3schools.NoteType#getFirst <em>First</em>}' attribute.
+	 * Sets the value of the '{@link w3schools.NoteType#getSecond <em>Second</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>First</em>' attribute.
-	 * @see #getFirst()
+	 * @param value the new value of the '<em>Second</em>' attribute.
+	 * @see #getSecond()
 	 * @generated
 	 */
-	void setFirst(String value);
+	void setSecond(String value);
 
 } // NoteType
