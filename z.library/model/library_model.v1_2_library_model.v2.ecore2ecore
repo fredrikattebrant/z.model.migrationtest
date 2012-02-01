@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore2ecore:Ecore2EcoreMappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore2ecore="http://www.eclipse.org/emf/2004/Ecore2Ecore" topToBottom="true">
+  <nested>
+    <nested>
+      <nested>
+        <inputs href="library_model.v1.ecore#//Library/books/@eGenericType"/>
+        <outputs href="library_model.v2.ecore#//Library/books/@eGenericType"/>
+      </nested>
+      <inputs href="library_model.v1.ecore#//Library/books"/>
+      <outputs href="library_model.v2.ecore#//Library/books"/>
+    </nested>
+    <nested>
+      <nested>
+        <inputs href="library_model.v1.ecore#//Library/authors/@eGenericType"/>
+        <outputs href="library_model.v2.ecore#//Library/authors/@eGenericType"/>
+      </nested>
+      <inputs href="library_model.v1.ecore#//Library/authors"/>
+      <outputs href="library_model.v2.ecore#//Library/authors"/>
+    </nested>
+    <nested>
+      <nested>
+        <inputs href="library_model.v1.ecore#//Library/name/@eGenericType"/>
+        <outputs href="library_model.v2.ecore#//Library/name/@eGenericType"/>
+      </nested>
+      <inputs href="library_model.v1.ecore#//Library/name"/>
+      <outputs href="library_model.v2.ecore#//Library/name"/>
+    </nested>
+    <inputs href="library_model.v1.ecore#//Library"/>
+    <outputs href="library_model.v2.ecore#//Library"/>
+  </nested>
+  <nested>
+    <nested>
+      <nested>
+        <inputs href="library_model.v1.ecore#//Book/author/@eGenericType"/>
+        <outputs href="library_model.v2.ecore#//Book/author/@eGenericType"/>
+      </nested>
+      <inputs href="library_model.v1.ecore#//Book/author"/>
+      <outputs href="library_model.v2.ecore#//Book/author"/>
+    </nested>
+    <nested>
+      <inputs href="library_model.v1.ecore#//Book/name"/>
+      <outputs href="library_model.v2.ecore#//Book/title"/>
+    </nested>
+    <inputs href="library_model.v1.ecore#//Book"/>
+    <outputs href="library_model.v2.ecore#//Book"/>
+  </nested>
+  <nested>
+    <nested>
+      <nested>
+        <inputs href="library_model.v1.ecore#//Author/books/@eGenericType"/>
+        <outputs href="library_model.v2.ecore#//Author/books/@eGenericType"/>
+      </nested>
+      <inputs href="library_model.v1.ecore#//Author/books"/>
+      <outputs href="library_model.v2.ecore#//Author/books"/>
+    </nested>
+    <nested>
+      <nested>
+        <inputs href="library_model.v1.ecore#//Author/name/@eGenericType"/>
+        <outputs href="library_model.v2.ecore#//Author/name/@eGenericType"/>
+      </nested>
+      <inputs href="library_model.v1.ecore#//Author/name"/>
+      <outputs href="library_model.v2.ecore#//Author/name"/>
+    </nested>
+    <inputs href="library_model.v1.ecore#//Author"/>
+    <outputs href="library_model.v2.ecore#//Author"/>
+  </nested>
+  <nested>
+    <nested>
+      <nested>
+        <inputs href="library_model.v1.ecore#//Book/name/@eGenericType"/>
+        <outputs href="library_model.v2.ecore#//Book/title/@eGenericType"/>
+      </nested>
+      <inputs href="library_model.v1.ecore#//Book/name"/>
+      <outputs href="library_model.v2.ecore#//Book/title"/>
+    </nested>
+    <inputs href="library_model.v1.ecore#//Book"/>
+    <outputs href="library_model.v2.ecore#//Book"/>
+  </nested>
+  <inputs href="library_model.v1.ecore#/"/>
+  <outputs href="library_model.v2.ecore#/"/>
+</ecore2ecore:Ecore2EcoreMappingRoot>

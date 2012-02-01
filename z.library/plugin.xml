@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.findout.se/example/librarymodel/1.0"
+            class="se.findout.example.librarymodel.LibraryModel.LibraryModelPackage"
+            genModel="model/library_model.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="librarymodel"
+            class="se.findout.example.librarymodel.LibraryModel.util.LibraryModelResourceFactoryImpl"/>
+   </extension>
+
+</plugin>

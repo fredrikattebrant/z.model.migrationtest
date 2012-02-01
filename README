@@ -1,0 +1,6 @@
+Ecore2Ecore model migration prototyping.
+
+See http://wiki.eclipse.org/EMF/Recipes#Recipe:_Data_Migration
+for input on how to get started.
+
+Example using simple "Library" model.

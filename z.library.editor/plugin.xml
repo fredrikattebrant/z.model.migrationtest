@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="se.findout.example.librarymodel.LibraryModel.presentation.LibraryModelModelWizardID"
+            name="%_UI_LibraryModelModelWizard_label"
+            class="se.findout.example.librarymodel.LibraryModel.presentation.LibraryModelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/LibraryModelModelFile.gif">
+         <description>%_UI_LibraryModelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="se.findout.example.librarymodel.LibraryModel.presentation.LibraryModelEditorID"
+            name="%_UI_LibraryModelEditor_label"
+            icon="icons/full/obj16/LibraryModelModelFile.gif"
+            extensions="librarymodel"
+            class="se.findout.example.librarymodel.LibraryModel.presentation.LibraryModelEditor"
+            contributorClass="se.findout.example.librarymodel.LibraryModel.presentation.LibraryModelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

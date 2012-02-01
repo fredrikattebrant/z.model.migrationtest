@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore2xml:XMLMap xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:ecore2xml="http://www.eclipse.org/emf/2005/Ecore2XML">
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EPackage" href="library_model.v2.ecore#/"/>
+    <value name="LibraryModel" targetNamespace="http://www.findout.se/example/librarymodel/1.0"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EClass" href="library_model.v2.ecore#//Library"/>
+    <value name="Library" targetNamespace="http://www.findout.se/example/librarymodel/1.0"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EReference" href="library_model.v2.ecore#//Library/books"/>
+    <value name="books"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EReference" href="library_model.v2.ecore#//Library/authors"/>
+    <value name="authors"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EAttribute" href="library_model.v2.ecore#//Library/name"/>
+    <value name="name"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EClass" href="library_model.v2.ecore#//Book"/>
+    <value name="Book" targetNamespace="http://www.findout.se/example/librarymodel/1.0"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EReference" href="library_model.v2.ecore#//Book/author"/>
+    <value name="author"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EAttribute" href="library_model.v2.ecore#//Book/title"/>
+    <value name="name"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EClass" href="library_model.v2.ecore#//Author"/>
+    <value name="Author" targetNamespace="http://www.findout.se/example/librarymodel/1.0"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EReference" href="library_model.v2.ecore#//Author/books"/>
+    <value name="books"/>
+  </ecoreToXMLInfo>
+  <ecoreToXMLInfo>
+    <key xsi:type="ecore:EAttribute" href="library_model.v2.ecore#//Author/name"/>
+    <value name="name"/>
+  </ecoreToXMLInfo>
+</ecore2xml:XMLMap>
